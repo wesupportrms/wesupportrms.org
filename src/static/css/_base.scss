@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-Regular.ttf');
+}
+@font-face {
+  font-family: 'Ubuntu-Bold';
+  src: url('../fonts/Ubuntu-Bold.ttf');
+}
+@font-face {
+  font-family: 'Ubuntu-Medium';
+  src: url('../fonts/Ubuntu-Medium.ttf');
+}
+@font-face {
+  font-family: 'Ubuntu-R-hinting';
+  src: url('../fonts/Ubuntu-R-hinting.ttf');
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Ubuntu';
+  color: #2c465e !important;
+  background-color: #f7fbff;
+  -webkit-tap-highlight-color: transparent;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+a:focus,
+div:focus,
+input:focus {
+  outline: none;
+}
+
+i {
+  font-style: normal;
+}
+h2 {
+  font-family: 'Ubuntu-Bold';
+}
+
+.container {
+  max-width: 1200px;
+  @apply mx-auto;
+}
+@media (min-width: 320px) and (max-width: 1190px) {
+  .container {
+    @apply px-4;
+  }
+}
