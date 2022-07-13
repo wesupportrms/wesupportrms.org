@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-export default function Footer() {
+export default function Header() {
   return (
     <div className={'docs-header-pc'}>
       <div className={'header'}>
