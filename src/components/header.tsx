@@ -1,13 +1,20 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import { StaticImage } from 'gatsby-plugin-image'
 export default function Header() {
   return (
     <div className={'docs-header-pc'}>
       <div className={'header'}>
-        <Link to="/">
-          Home<i></i>
-        </Link>
+        <div className={'logo'}>
+          <Link to="/">
+            <StaticImage
+              className={'logo-img'}
+              placeholder="blurred"
+              alt="docs-button"
+              src="../static/images/logo-pc.png"
+            />
+          </Link>
+        </div>
         <Link to="/aboutrms/">
           About RMS<i></i>
         </Link>

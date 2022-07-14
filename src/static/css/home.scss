@@ -18,7 +18,7 @@
     @apply block md:hidden;
   }
   .content {
-    @apply px-4 md:px-0 absolute top-[31%] md:top-[35%] md:left-1/2 md:-ml-[600px] text-left md:text-center md:max-w-[1200px] overflow-hidden;
+    @apply md:px-0 absolute top-[38%] md:top-[40%] md:left-1/2 md:-ml-[600px] text-left md:text-center md:max-w-[1200px] overflow-hidden;
   }
   h2,
   p,
@@ -30,17 +30,14 @@
     @apply md:text-xl;
   }
   h2 {
-    @apply text-7xl md:text-[7.4rem] font-bold relative h-[17rem] md:h-[8.5rem] mb-16 leading-[6rem];
+    @apply text-[66px] md:text-[7.4rem] font-bold relative mb-16 leading-[4.5rem];
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.302);
     span {
       @apply absolute left-0 w-full z-10;
     }
   }
-  .tab {
-    @apply absolute bottom-0 md:bottom-8 left-0 md:left-[8%] w-[9.5rem] md:w-[85%] h-4 bg-gray00 z-0;
-    opacity: 0.8;
-  }
   p {
-    @apply text-lg leading-9 text-left mb-14 md:mb-0;
+    @apply text-lg leading-9 text-left mb-14 md:mb-0 md:mt-14;
   }
   .header {
     @apply mt-12 flex flex-wrap justify-between;
@@ -72,6 +69,11 @@ body {
     p,
     a {
       @apply text-base;
+    }
+  }
+  .docs-header-pc {
+    .header {
+      @apply px-4;
     }
   }
 }
