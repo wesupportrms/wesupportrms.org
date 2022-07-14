@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Wesupportrms`,
+    title: `WE SUPPORT RMS`,
     description: `Wesupportrms`,
     author: `wesupportrms.org`,
     siteUrl: `https://www.wesupportrms.org/`,
