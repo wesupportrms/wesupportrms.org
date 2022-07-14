@@ -13,7 +13,7 @@ export default function MyModal() {
         <div className={'header-btn'} onClick={() => setMobileSidebarOpen(true)}>
           <AiOutlineMenu />
         </div>
-        <div className={'page-pc'}>
+        <div className={'page-h5'}>
           <StaticImage
             className={'logo-img'}
             placeholder="blurred"
@@ -21,7 +21,7 @@ export default function MyModal() {
             src="../static/images/logo-h5.png"
           />
         </div>
-        <div className={'page-h5'}>
+        <div className={'page-pc'}>
           <StaticImage
             className={'logo-img'}
             placeholder="blurred"
