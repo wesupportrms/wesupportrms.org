@@ -8,15 +8,15 @@
     }
   }
 }
-
+.page-pc {
+  @apply hidden md:block;
+}
+.page-h5 {
+  @apply block md:hidden;
+}
 .home-page {
   @apply relative bg-black0a md:bg-white;
-  .page-pc {
-    @apply hidden md:block;
-  }
-  .page-h5 {
-    @apply block md:hidden;
-  }
+
   .content {
     @apply md:px-0 absolute top-[38%] md:top-[40%] md:left-1/2 md:-ml-[600px] text-left md:text-center md:max-w-[1200px] overflow-hidden;
   }
