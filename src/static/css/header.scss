@@ -10,33 +10,78 @@
   }
 }
 .header-btn {
-  @apply fixed top-4 left-4 cursor-pointer;
+  @apply absolute top-4 left-4 cursor-pointer;
   svg {
     @apply text-white text-[27px];
   }
 }
 .header-modal {
-  @apply w-screen h-screen bg-white transform overflow-hidden  p-4 text-left align-middle shadow-xl transition-all;
+  @apply h-[58px] bg-black2f block md:hidden;
+  .logo-img {
+    @apply absolute top-[19px] left-1/2 -ml-[2.75rem];
+    img {
+      @apply w-[5.5rem] h-auto;
+    }
+  }
+}
+.close-box-modal {
+  @apply pt-4 space-y-2 px-2 bg-white w-screen h-screen;
   .close {
     @apply cursor-pointer;
     .button-img {
       @apply w-[26px] h-auto;
     }
   }
+  .logo-modal {
+    @apply absolute top-6 left-1/2 -ml-[2.75rem];
+    img {
+      @apply w-[5.5rem] h-auto;
+    }
+  }
   .header {
-    @apply mt-12;
+    @apply mt-12 pl-2;
     a {
       @apply block text-grag2c text-xl mt-10;
     }
   }
 }
+// .header-modal {
+//   @apply w-screen h-screen bg-white transform overflow-hidden  p-4 text-left align-middle shadow-xl transition-all;
+//   .close {
+//     @apply cursor-pointer;
+//     .button-img {
+//       @apply w-[26px] h-auto;
+//     }
+//   }
+//   .header {
+//     @apply mt-12;
+//     a {
+//       @apply block text-grag2c text-xl mt-10;
+//     }
+//   }
+// }
 
 .docs-header-pc {
   @apply hidden md:block bg-white;
   .header {
-    @apply w-[1200px] mx-auto pt-[22px];
+    @apply max-w-[1200px] mx-auto pt-[22px] flex;
     a {
       @apply mr-16 text-base;
     }
+    .logo {
+      a {
+        @apply mr-20;
+      }
+    }
+    .logo-img {
+      @apply w-24 h-auto;
+    }
+  }
+}
+
+.docs-header {
+  // @apply
+  .header-modal {
+    @apply bg-white;
   }
 }
