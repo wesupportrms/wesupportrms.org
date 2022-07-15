@@ -18,14 +18,15 @@
     @apply pt-10;
   }
   .title {
-    @apply text-[4.2rem] font-bold text-grag2c;
+    @apply text-[50px] md:text-[4.2rem] font-bold text-grag2c;
     font-family: 'Ubuntu-Bold';
   }
   h1 {
-    @apply pt-[6rem] pb-[20px];
+    @apply pt-[60px] md:pt-[6rem] pb-[20px];
   }
   h2 {
-    @apply text-[2.6rem] mt-[6.5rem] relative pl-[18px];
+    @apply text-4xl md:text-[2.6rem] mt-[4.5rem] md:mt-[6.5rem] relative pl-[18px];
+    font-family: 'Ubuntu-Bold';
     &::after {
       content: '';
       @apply absolute top-1/2 -mt-[16.5px] left-0 w-[6px] h-[33px] bg-gray11;
