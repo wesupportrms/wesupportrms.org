@@ -18,6 +18,9 @@ export default function Header() {
         <Link to="/aboutrms/">
           About RMS<i></i>
         </Link>
+        <Link to="/campaign/">
+        The Campaign<i></i>
+        </Link>
         <Link to="/support/">
           How to Support<i></i>
         </Link>
