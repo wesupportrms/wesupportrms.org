@@ -35,8 +35,7 @@ const Seo: React.FC<SeochildProps> = props => {
 export default Seo
 
 Seo.defaultProps = {
-  description:
-    'WE-SUPPORT-RMS',
+  description: 'WE-SUPPORT-RMS',
   meta: [],
   lang: 'en'
 }
