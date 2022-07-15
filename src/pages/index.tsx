@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
 import { Link } from 'gatsby'
 import HeaderModal from '../components/headerModal'
 import NormalLayout from '../components/NormalLayout'
@@ -23,8 +23,12 @@ const IndexPage = () => {
 export default IndexPage
 
 function Main() {
-  let body = document.getElementsByTagName("body")[0]
-  body.style.background = '#0A0A0A'
+
+  useEffect(() => {
+    let body = document.getElementsByTagName("body")[0]
+    body.style.background = '#0A0A0A'
+  }, [])
+
   return (
     <div className={'home-page'}>
       <HeaderModal />
@@ -33,17 +37,17 @@ function Main() {
           <img className={'page-pc'} src={BannerImg} alt="banner-img" />
           <img className={'page-h5'} src={BannerImgH5} alt="banner-h5-img" />
         </div>
-        
+
         <div className={'container'}>
           <div className={'content'}>
-          <Link to="/">
-          <StaticImage
-            className={'logo'}
-            placeholder="blurred"
-            alt="logo"
-            src="../static/images/logo-pc1.png"
-          />
-          </Link>
+            <Link to="/">
+              <StaticImage
+                className={'logo'}
+                placeholder="blurred"
+                alt="logo"
+                src="../static/images/logo-pc1.png"
+              />
+            </Link>
             <h2 className={'page-pc'}>WE SUPPORT RMS</h2>
             <h2 className={'page-h5'}>
               WE
