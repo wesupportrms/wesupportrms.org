@@ -21,4 +21,4 @@ Contribute to build the website;
 
 ## Contact US
 
-contact@wesupportrms.org
+- contact@wesupportrms.org
