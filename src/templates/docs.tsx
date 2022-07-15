@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { graphql } from 'gatsby'
 import { MDXProvider } from '@mdx-js/react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
@@ -27,7 +27,7 @@ const components = {
 const DocsPage = ({ data: { allMdx } }: any) => {
   const content = allMdx.edges[0].node
   useEffect(() => {
-    let body = document.getElementsByTagName("body")[0]
+    let body = document.getElementsByTagName('body')[0]
     body.style.background = 'white'
   }, [])
   return (

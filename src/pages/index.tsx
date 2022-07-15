@@ -23,9 +23,8 @@ const IndexPage = () => {
 export default IndexPage
 
 function Main() {
-
   useEffect(() => {
-    let body = document.getElementsByTagName("body")[0]
+    let body = document.getElementsByTagName('body')[0]
     body.style.background = '#0A0A0A'
   }, [])
 
@@ -74,31 +73,23 @@ function Main() {
                 </Link>
               </div>
             </div>
-            <p className={'content-p page-pc'}>
-              <span>
+            <p>
               Richard Matthew Stallman (/ˈstɔːlmən/; born March 16, 1953), also known by his initials, rms, is an
               American free software movement activist and programmer. He campaigns for software to be distributed in
-              such a manner that its users have the freedom to use, study, distribute, and modify that software.</span>
-              Software that ensures these freedoms is termed free software. Stallman launched the GNU Project, founded
-              the Free Software Foundation in October 1985, developed the GNU Compiler Collection and GNU Emacs, and
-              wrote the GNU General Public License.
+              such a manner that its users have the freedom to use, study, distribute, and modify that software.
             </p>
-            <p className={'content-p page-h5'}>
-              <span>
-              Richard Matthew Stallman (/ˈstɔːlmən/; born March 16, 1953), also known by his initials, rms, is an
-              American free software movement activist and programmer. He campaigns for software to be distributed in
-              such a manner that its users have the freedom to use, study, distribute, and modify that software.</span>
+            <p>
               Software that ensures these freedoms is termed free software. Stallman launched the GNU Project, founded
               the Free Software Foundation in October 1985, developed the GNU Compiler Collection and GNU Emacs, and
               wrote the GNU General Public License.
             </p>
             <div className={'page-h5'}>
-            <Footer />
+              <Footer />
             </div>
           </div>
         </div>
         <div className={'page-pc'}>
-        <Footer />
+          <Footer />
         </div>
       </div>
     </div>

@@ -1,36 +1,36 @@
 .footer-box {
-    @apply bg-gray02 h-[98px];
+  @apply bg-gray02 h-[98px];
 }
-.footer{ 
-    @apply pt-4 md:pt-8;
-    p {
-        @apply text-left px-4 md:text-center text-gray77 text-xs mt-0 mb-0 leading-[18px];
-        &:nth-child(2) {
-            @apply md:mt-1;
-        }
+.footer {
+  @apply pt-4 md:pt-8;
+  p {
+    @apply text-left px-4 md:text-center text-gray77 text-xs mt-0 mb-0 leading-[18px];
+    &:nth-child(2) {
+      @apply md:mt-1;
     }
-    a {
-        @apply  text-xs text-gray42 hover:text-gray00;
-    }
+  }
+  a {
+    @apply text-xs text-gray42 hover:text-gray00;
+  }
 }
 .home-page {
-    @apply relative;
-    .footer-box {
-        // @apply md:absolute md:bottom-0 md:left-0 md:w-full;
-    }
+  @apply relative;
+  .footer-box {
+    // @apply md:absolute md:bottom-0 md:left-0 md:w-full;
+  }
 }
 .docs-page {
-    .footer-box {
-        @apply bg-grayea;
+  .footer-box {
+    @apply bg-grayea;
+  }
+  .footer {
+    p {
+      @apply text-grayb3;
     }
-    .footer{ 
-        p{
-            @apply text-grayb3;
-        }
-        a {
-            @apply text-gray89 hover:text-gray00;
-        }
+    a {
+      @apply text-gray89 hover:text-gray00;
     }
+  }
 }
 // .new-index {
 //     .footer-box {
