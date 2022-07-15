@@ -99,6 +99,9 @@ export default function MyModal() {
                     <div className={'header'}>
                       <Link to="/">Home</Link>
                       <Link to="/aboutrms/">About RMS</Link>
+                      <Link to="/campaign/">
+                        The Campaign<i></i>
+                      </Link>
                       <Link to="/support/">How to Support</Link>
                       <Link to="/community/">Join the Community</Link>
                       <Link to="/about/">About US</Link>

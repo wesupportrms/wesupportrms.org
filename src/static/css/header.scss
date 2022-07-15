@@ -1,5 +1,5 @@
 .header-box {
-  @apply fixed inset-0 flex items-center justify-center;
+  @apply flex items-center justify-center;
 }
 .docs-header {
   @apply block md:hidden;
@@ -45,21 +45,15 @@
     }
   }
 }
-// .header-modal {
-//   @apply w-screen h-screen bg-white transform overflow-hidden  p-4 text-left align-middle shadow-xl transition-all;
-//   .close {
-//     @apply cursor-pointer;
-//     .button-img {
-//       @apply w-[26px] h-auto;
-//     }
-//   }
-//   .header {
-//     @apply mt-12;
-//     a {
-//       @apply block text-grag2c text-xl mt-10;
-//     }
-//   }
-// }
+.home-logo {
+  @apply relative;
+  .logo {
+    @apply absolute top-0 left-0;
+    img {
+      @apply w-[7.8rem] h-auto;
+    }
+  }
+}
 
 .docs-header-pc {
   @apply hidden md:block bg-white;
