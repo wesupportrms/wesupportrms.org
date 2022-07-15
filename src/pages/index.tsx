@@ -5,6 +5,7 @@ import NormalLayout from '../components/NormalLayout'
 import { PageModelTitle } from '../model/PageModel'
 import BannerImg from '../static/images/banner.png'
 import BannerImgH5 from '../static/images/banner-h5.png'
+
 const IndexPage = () => {
   let pageModel = new PageModelTitle('Home', 'new-index')
   return <div>{NormalLayout(Main(), pageModel)}</div>
@@ -12,6 +13,8 @@ const IndexPage = () => {
 export default IndexPage
 
 function Main() {
+ let body = document.getElementsByTagName("body")[0]
+ body.style.background = '#0A0A0A'
   return (
     <div className={'home-page'}>
       <HeaderModal />

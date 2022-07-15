@@ -25,6 +25,8 @@ const components = {
 
 const DocsPage = ({ data: { allMdx } }: any) => {
   const content = allMdx.edges[0].node
+  let body = document.getElementsByTagName("body")[0]
+  body.style.background = 'white'
   return (
     <>
       <Seo title={content.frontmatter.title} description={''} meta={[]} lang={''} />

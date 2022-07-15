@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Wesupportrms`,
+    title: `WE SUPPORT RMS`,
     description: `Wesupportrms`,
     author: `wesupportrms.org`,
     siteUrl: `https://www.wesupportrms.org/`,
@@ -37,8 +37,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Newton`,
-        short_name: `Newton`,
+        name: `WE-SUPPORT-RMS`,
+        short_name: `WE-SUPPORT-RMS`,
         start_url: `/`,
         background_color: `#f7fbff`,
         theme_color: `#f7fbff`,

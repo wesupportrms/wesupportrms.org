@@ -8,7 +8,20 @@
     }
   }
 }
-
+.page-pc {
+  @apply hidden md:block;
+}
+.page-h5 {
+  @apply block md:hidden;
+}
+.docs-header {
+  .page-h5 {
+    @apply hidden md:block;
+  }
+  .page-pc {
+    @apply block md:hidden;
+  }
+}
 .home-page {
   @apply relative bg-black0a md:bg-white;
   .page-pc {
@@ -49,9 +62,7 @@
     }
   }
 }
-body {
-  @apply bg-black0a;
-}
+
 @media (min-width: 769px) and (max-width: 1190px) {
   .container {
     @apply px-4;
