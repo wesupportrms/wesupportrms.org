@@ -23,12 +23,6 @@
       @apply w-[5.5rem] h-auto;
     }
   }
-  .page-h5 {
-    @apply hidden md:block;
-  }
-  .page-pc {
-    @apply block md:hidden;
-  }
 }
 .close-box-modal {
   @apply pt-4 space-y-2 px-2 bg-white w-screen h-screen;

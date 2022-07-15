@@ -36,7 +36,7 @@ export default Seo
 
 Seo.defaultProps = {
   description:
-    'Newton-Infrastructure for the community economy,providing governance,collaboration and incentive. We are committed to creating highly collaborative, lower cost, highly automated community economy, everyone contributes,everyone benefits.',
+    'WE-SUPPORT-RMS',
   meta: [],
   lang: 'en'
 }
