@@ -2,9 +2,19 @@ import React from 'react'
 import { Link } from 'gatsby'
 import HeaderModal from '../components/headerModal'
 import NormalLayout from '../components/NormalLayout'
-import { PageModelTitle } from '../model/PageModel'
+import Footer from '../components/footer'
 import BannerImg from '../static/images/banner.png'
 import BannerImgH5 from '../static/images/banner-h5.png'
+import { StaticImage } from 'gatsby-plugin-image'
+
+class PageModelTitle {
+  name: string
+  title: string
+  constructor(title: string, name: string) {
+    this.name = name
+    this.title = title
+  }
+}
 
 const IndexPage = () => {
   let pageModel = new PageModelTitle('Home', 'new-index')
@@ -13,8 +23,8 @@ const IndexPage = () => {
 export default IndexPage
 
 function Main() {
- let body = document.getElementsByTagName("body")[0]
- body.style.background = '#0A0A0A'
+  let body = document.getElementsByTagName("body")[0]
+  body.style.background = '#0A0A0A'
   return (
     <div className={'home-page'}>
       <HeaderModal />
@@ -23,8 +33,17 @@ function Main() {
           <img className={'page-pc'} src={BannerImg} alt="banner-img" />
           <img className={'page-h5'} src={BannerImgH5} alt="banner-h5-img" />
         </div>
+        
         <div className={'container'}>
           <div className={'content'}>
+          <Link to="/">
+          <StaticImage
+            className={'logo'}
+            placeholder="blurred"
+            alt="logo"
+            src="../static/images/logo-pc1.png"
+          />
+          </Link>
             <h2 className={'page-pc'}>WE SUPPORT RMS</h2>
             <h2 className={'page-h5'}>
               WE
@@ -37,6 +56,9 @@ function Main() {
               <div className={'header'}>
                 <Link to="/aboutrms/">
                   About RMS<i></i>
+                </Link>
+                <Link to="/campaign/">
+                  The Campaign<i></i>
                 </Link>
                 <Link to="/support/">
                   How to Support<i></i>
@@ -57,6 +79,7 @@ function Main() {
               the Free Software Foundation in October 1985, developed the GNU Compiler Collection and GNU Emacs, and
               wrote the GNU General Public License.
             </p>
+            <Footer />
           </div>
         </div>
       </div>
