@@ -76,12 +76,13 @@ function Main() {
               </div>
             </div>
             <p>
-              Richard Matthew Stallman (/ˈstɔːlmən/; born March 16, 1953), also known by his initials, rms, is an
-              American free software movement activist and programmer. He campaigns for software to be distributed in
-              such a manner that its users have the freedom to use, study, distribute, and modify that software.
-              Software that ensures these freedoms is termed free software. Stallman launched the GNU Project, founded
-              the Free Software Foundation in October 1985, developed the GNU Compiler Collection and GNU Emacs, and
-              wrote the GNU General Public License.
+              Richard Matthew Stallman, frequently known as RMS, has been at the heart of the information technology revolution in recent decades. 
+            </p>
+            <p>
+                We are supporters, evangelists, activists, entrepreneurs, users of free software.
+            </p>
+            <p>
+                If you also, Please join us for supporting RMS!
             </p>
             <Footer />
           </div>
