@@ -25,23 +25,23 @@
   }
 }
 .close-box-modal {
-  @apply pt-4 space-y-2 px-2 bg-white w-screen h-screen;
+  @apply space-y-2 bg-white w-screen h-screen;
   .close {
-    @apply cursor-pointer;
+    @apply cursor-pointer h-[58px] flex justify-center items-center border-b-[1px] border-solid border-grayf1;
     .button-img {
-      @apply w-[26px] h-auto;
+      @apply w-[26px] h-auto absolute left-4;
     }
   }
   .logo-modal {
-    @apply absolute top-6 left-1/2 -ml-[2.75rem];
+    @apply absolute top-[19px] left-1/2 -ml-[2.75rem];
     img {
       @apply w-[5.5rem] h-auto;
     }
   }
   .header {
-    @apply mt-12 pl-2;
+    @apply mt-11 pl-6  border-b-[1px] border-solid border-grayf1;
     a {
-      @apply block text-grag2c text-xl mt-10;
+      @apply block text-grag2c text-lg mt-9;
     }
   }
 }

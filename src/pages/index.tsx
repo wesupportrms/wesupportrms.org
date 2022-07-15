@@ -37,17 +37,16 @@ function Main() {
           <img className={'page-pc'} src={BannerImg} alt="banner-img" />
           <img className={'page-h5'} src={BannerImgH5} alt="banner-h5-img" />
         </div>
-
         <div className={'container'}>
           <div className={'content'}>
-            <Link to="/">
+            {/* <Link to="/">
               <StaticImage
                 className={'logo'}
                 placeholder="blurred"
                 alt="logo"
                 src="../static/images/logo-pc1.png"
               />
-            </Link>
+            </Link> */}
             <h2 className={'page-pc'}>WE SUPPORT RMS</h2>
             <h2 className={'page-h5'}>
               WE
@@ -75,16 +74,31 @@ function Main() {
                 </Link>
               </div>
             </div>
-            <p>
+            <p className={'content-p page-pc'}>
+              <span>
               Richard Matthew Stallman (/ˈstɔːlmən/; born March 16, 1953), also known by his initials, rms, is an
               American free software movement activist and programmer. He campaigns for software to be distributed in
-              such a manner that its users have the freedom to use, study, distribute, and modify that software.
+              such a manner that its users have the freedom to use, study, distribute, and modify that software.</span>
               Software that ensures these freedoms is termed free software. Stallman launched the GNU Project, founded
               the Free Software Foundation in October 1985, developed the GNU Compiler Collection and GNU Emacs, and
               wrote the GNU General Public License.
             </p>
+            <p className={'content-p page-h5'}>
+              <span>
+              Richard Matthew Stallman (/ˈstɔːlmən/; born March 16, 1953), also known by his initials, rms, is an
+              American free software movement activist and programmer. He campaigns for software to be distributed in
+              such a manner that its users have the freedom to use, study, distribute, and modify that software.</span>
+              Software that ensures these freedoms is termed free software. Stallman launched the GNU Project, founded
+              the Free Software Foundation in October 1985, developed the GNU Compiler Collection and GNU Emacs, and
+              wrote the GNU General Public License.
+            </p>
+            <div className={'page-h5'}>
             <Footer />
+            </div>
           </div>
+        </div>
+        <div className={'page-pc'}>
+        <Footer />
         </div>
       </div>
     </div>
