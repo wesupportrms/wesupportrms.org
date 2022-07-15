@@ -5,18 +5,20 @@ lang: en
 sidebar: true
 ---
 
-## The big title1
+We Support RMS
 
-### Next Title1
+## About RMS
 
-Richard Matthew Stallman (/ˈstɔːlmən/; born March 16, 1953), also known by his initials, rms, is an American free software movement activist and programmer. He campaigns for software to be distributed in such a manner that its users have the freedom to use, study, distribute, and modify that software. Software that ensures these freedoms is termed free software. Stallman launched the GNU Project, founded the Free Software Foundation in October 1985, developed the GNU Compiler Collection and GNU Emacs, and wrote the GNU General Public License.
+All about Richard M. Stallman, we’ll collect the RMS related reports, including articles, videos
+etc.
 
-### Next Title2
+## A Serious Bio
+- With a photo of RMS
+- The content is from: https://stallman.org/biographies.html#serious the Serious Bio part.
 
-Richard Matthew Stallman (/ˈstɔːlmən/; born March 16, 1953), also known by his initials, rms, is an American free software movement activist and programmer. He campaigns for software to be distributed in such a manner that its users have the freedom to use, study, distribute, and modify that software. Software that ensures these freedoms is termed free software. Stallman launched the GNU Project, founded the Free Software Foundation in October 1985, developed the GNU Compiler Collection and GNU Emacs, and wrote the GNU General Public License.
+## What he does
 
-## Title2
+- fsf.org
+- gnu.org
 
-Richard Matthew Stallman (/ˈstɔːlmən/; born March 16, 1953), also known by his initials, rms, is an American free software movement activist and programmer. He campaigns for software to be distributed in such a manner that its users have the freedom to use, study, distribute, and modify that software. Software that ensures these freedoms is termed free software. Stallman launched the GNU Project, founded the Free Software Foundation in October 1985, developed the GNU Compiler Collection and GNU Emacs, and wrote the GNU General Public License.
-
-Richard Matthew Stallman (/ˈstɔːlmən/; born March 16, 1953), also known by his initials, rms, is an American free software movement activist and programmer. He campaigns for software to be distributed in such a manner that its users have the freedom to use, study, distribute, and modify that software. Software that ensures these freedoms is termed free software. Stallman launched the GNU Project, founded the Free Software Foundation in October 1985, developed the GNU Compiler Collection and GNU Emacs, and wrote the GNU General Public License.
+## Reports and Interviews
