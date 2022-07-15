@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import { MDXProvider } from '@mdx-js/react'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
+import Footer from '../components/footer'
 import { Link } from 'gatsby'
 import ExpandableCard from '../components/docs/expandableCard'
 import Header from '../components/header'
@@ -25,6 +26,8 @@ const components = {
 
 const DocsPage = ({ data: { allMdx } }: any) => {
   const content = allMdx.edges[0].node
+  let body = document.getElementsByTagName("body")[0]
+  body.style.background = 'white'
   return (
     <>
       <Seo title={content.frontmatter.title} description={''} meta={[]} lang={''} />
@@ -40,6 +43,7 @@ const DocsPage = ({ data: { allMdx } }: any) => {
               <MDXRenderer>{content.body}</MDXRenderer>
             </MDXProvider>
           </div>
+          <Footer />
         </div>
       </div>
     </>

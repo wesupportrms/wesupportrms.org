@@ -1,9 +1,15 @@
 import React from 'react'
-// import Header from './header'
-// import Footer from './footer'
-// import ScrollTop from './scrollTop'
+// import Footer from '../components/footer'
 import Seo from './seo'
-import { PageModelTitle } from '../model/PageModel'
+
+class PageModelTitle {
+  name: string
+  title: string
+  constructor(title: string, name: string) {
+    this.name = name
+    this.title = title
+  }
+}
 
 export default function NormalLayout(children: React.ReactNode, pageModel: PageModelTitle): JSX.Element {
   return (

@@ -1,8 +1,13 @@
 ---
-title: community
-description: community
+title: Join the Community
+description: Join the Community
 lang: en
 sidebar: true
 ---
 
-## community
+A world wide community to support RMS for long term.
+
+## Other support campaign
+
+- https://stallmansupport.org
+- https://rms-support-letter.github.io
