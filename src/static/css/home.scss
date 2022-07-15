@@ -1,5 +1,5 @@
 .banner-box {
-  @apply overflow-hidden;
+  @apply overflow-x-hidden ;
   .banner {
     @apply relative w-screen h-screen;
     img {
@@ -15,6 +15,9 @@
   @apply block md:hidden;
 }
 .docs-header {
+  .header-modal {
+    @apply border-b-[1px] border-solid border-grayf1;
+  }
   .page-h5 {
     @apply hidden md:block;
   }
@@ -31,12 +34,12 @@
     @apply block md:hidden;
   }
   .content {
-    @apply md:px-0 absolute top-[38%] md:top-[8%] md:left-1/2 md:-ml-[600px] text-left md:text-center md:max-w-[1200px] overflow-hidden;
+    @apply pr-4 md:pr-0 md:px-0 absolute top-[38%] md:top-[62px] md:left-1/2 md:-ml-[600px] text-left md:text-center md:max-w-[1200px] overflow-hidden;
   }
   .logo {
     @apply absolute top-0 left-0 hidden md:block cursor-pointer;
     img {
-      @apply w-[7.8rem];
+      @apply w-[7rem];
     }
   }
   h2,
@@ -48,20 +51,26 @@
   a {
     @apply md:text-xl;
   }
+  .content-p {
+    @apply leading-7 md:leading-[28px];
+    span {
+      @apply mb-6 md:mb-5 block;
+    }
+  }
   h2 {
-    @apply text-[66px] md:text-[7.4rem] font-bold relative mb-16 leading-[4.5rem] mt-0 md:mt-72;
+    @apply text-[66px] md:text-[6rem] font-bold relative mb-10 md:mb-16 leading-[4.5rem] mt-0 md:mt-[15rem];
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.302);
     span {
       @apply absolute left-0 w-full z-10;
     }
   }
   p {
-    @apply text-lg leading-9 text-left mb-14 md:mb-0 md:mt-14;
+    @apply text-base leading-9 text-left mb-14 md:mb-0 md:mt-14;
   }
   .header {
     @apply mt-12 flex flex-wrap justify-between;
     a {
-      @apply relative hover:text-gray00 pr-7;
+      @apply relative hover:text-gray00 pr-7 text-lg;
       i {
         @apply absolute top-[2px] w-6 h-6 bg-arrows bg-no-repeat bg-cover;
       }

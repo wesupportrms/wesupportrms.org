@@ -7,6 +7,8 @@ sidebar: true
 
 ## Who We Are
 
+### what is
+
 ## Why we do this
 
 ## About the website

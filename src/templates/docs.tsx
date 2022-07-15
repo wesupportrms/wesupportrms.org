@@ -45,8 +45,8 @@ const DocsPage = ({ data: { allMdx } }: any) => {
               <MDXRenderer>{content.body}</MDXRenderer>
             </MDXProvider>
           </div>
-          <Footer />
         </div>
+        <Footer />
       </div>
     </>
   )
