@@ -17,6 +17,7 @@ All about Richard M. Stallman, we’ll collect the RMS related reports, includin
 etc.
 
 ## A Serious Bio
+
 - With a photo of RMS
 - The content is from: https://stallman.org/biographies.html#serious the Serious Bio part.
 

@@ -39,7 +39,7 @@
     }
   }
   .header {
-    @apply mt-11 pl-6  border-b-[1px] border-solid border-grayf1;
+    @apply mt-11 pl-6;
     a {
       @apply block text-grag2c text-lg mt-9;
     }
@@ -56,7 +56,7 @@
 }
 
 .docs-header-pc {
-  @apply hidden md:block bg-white;
+  @apply hidden md:block bg-white border-b-[1px] border-solid border-grayf1 pb-[22px];
   .header {
     @apply max-w-[1200px] mx-auto pt-[22px] flex;
     a {
@@ -74,7 +74,6 @@
 }
 
 .docs-header {
-  // @apply
   .header-modal {
     @apply bg-white;
   }

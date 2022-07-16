@@ -1,5 +1,5 @@
 .banner-box {
-  @apply overflow-x-hidden ;
+  @apply overflow-x-hidden;
   .banner {
     @apply relative w-screen h-screen;
     img {
@@ -51,12 +51,7 @@
   a {
     @apply md:text-xl;
   }
-  .content-p {
-    @apply leading-7 md:leading-[28px];
-    span {
-      @apply mb-6 md:mb-5 block;
-    }
-  }
+
   h2 {
     @apply text-[66px] md:text-[6rem] font-bold relative mb-10 md:mb-16 leading-[4.5rem] mt-0 md:mt-[15rem];
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.302);
@@ -65,10 +60,10 @@
     }
   }
   p {
-    @apply text-base leading-9 text-left mb-14 md:mb-0 md:mt-14;
+    @apply leading-7 md:leading-[28px] text-base text-left mb-6 md:mb-5;
   }
   .header {
-    @apply mt-12 flex flex-wrap justify-between;
+    @apply mt-12 mb-16 flex flex-wrap justify-between;
     a {
       @apply relative hover:text-gray00 pr-7 text-lg;
       i {
