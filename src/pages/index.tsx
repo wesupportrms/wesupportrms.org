@@ -83,7 +83,7 @@ function Main() {
               We launched a <strong>WeSuuportRMS</strong> campaign.
             </p>
 
-            <p>
+            <p className={'join'}>
               Join us at{' '}
               <a href="https://github.com/wesupportrms/wesupportrms.org" target="_blank">
                 Github
@@ -91,8 +91,8 @@ function Main() {
               or{' '}
               <a href="https://t.me/WeSupportRMS" target="_blank">
                 Telegram
-              </a>{' '}
-              &nbsp; !
+              </a>
+              &nbsp;!
             </p>
 
             <div className={'page-h5'}>
