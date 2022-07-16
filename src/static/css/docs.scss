@@ -53,7 +53,7 @@
     @apply text-xl font-bold;
   }
   a {
-    @apply text-gray20 ml-1 mr-2 relative;
+    @apply text-gray20 relative;
     // &::after {
     //   content: '';
     //   @apply absolute top-[1px] right-[-19px] w-4 h-4 bg-contain bg-docs-a bg-no-repeat;
