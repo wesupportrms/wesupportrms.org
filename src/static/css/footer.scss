@@ -1,18 +1,19 @@
 .footer-box {
   @apply bg-gray02 h-[98px];
-}
-.footer {
-  @apply pt-4 md:pt-8;
-  p {
-    @apply text-left px-4 md:text-center text-gray77 text-xs mt-0 mb-0 leading-[18px];
-    &:nth-child(2) {
-      @apply md:mt-1;
+  .footer {
+    @apply pt-4 md:pt-8;
+    p {
+      @apply text-left px-4 md:text-center text-gray77 text-xs mt-0 mb-0 leading-[18px];
+      &:nth-child(2) {
+        @apply md:mt-1;
+      }
+    }
+    a {
+      @apply text-xs text-gray42 hover:text-gray00;
     }
   }
-  a {
-    @apply text-xs text-gray42 hover:text-gray00;
-  }
 }
+
 .home-page {
   @apply relative;
   .footer-box {
