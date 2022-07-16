@@ -73,19 +73,28 @@ function Main() {
                 </Link>
               </div>
             </div>
-            
+
             <p>
-                Richard Matthew Stallman, frequently known as RMS, has been at the heart of the information technology revolution in recent decades.
+              Richard Matthew Stallman, frequently known as RMS, has been at the heart of the information technology
+              revolution in recent decades.
             </p>
-            
+
             <p>
-                We launched a <strong>WeSuuportRMS</strong> campaign.
+              We launched a <strong>WeSuuportRMS</strong> campaign.
             </p>
-            
+
             <p>
-                Join us at <a href="https://github.com/wesupportrms/wesupportrms.org" target="_blank">Github</a> or <a href="https://t.me/WeSupportRMS" target="_blank">Telegram</a> &nbsp; !
+              Join us at{' '}
+              <a href="https://github.com/wesupportrms/wesupportrms.org" target="_blank">
+                Github
+              </a>{' '}
+              or{' '}
+              <a href="https://t.me/WeSupportRMS" target="_blank">
+                Telegram
+              </a>{' '}
+              &nbsp; !
             </p>
-            
+
             <div className={'page-h5'}>
               <Footer />
             </div>
