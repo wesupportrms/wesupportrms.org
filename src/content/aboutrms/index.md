@@ -80,16 +80,15 @@ More Content visit [GNU Software](https://www.gnu.org/software/) .
 
 ## Reports and Interviews
 
-> The content is from https://stallman.org/rss/rss.xml 
+> The content is from https://stallman.org/rss/rss.xml
 
-* [Pence and Secret Service](https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Pence_and_Secret_Service))
-* [Democrats urged to finalize reconciliation package](https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Democrats_urged_to_finalize_reconciliation_package))
-* [Congress working behind closed doors on $50 billion in corporate welfare](https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Congress_working_behind_closed_doors_on_$50_billion_in_corporate_welfare))
-* [Bucha torture chambers](https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Bucha_torture_chambers))
-* [Bolsonaro encouraging violence](https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Bolsonaro_encouraging_violence))
-* [Burying without identifying](https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Burying_without_identifying))
-* [Greece threw handcuffed migrants into sea](https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Greece_threw_handcuffed_migrants_into_sea))
-* [NHS doctor strike](https://stallman.org/archives/2022-may-aug.html#16_July_2022_(NHS_doctor_strike))
-* [The bullshitter was going to claim he won with unfinished count](https://stallman.org/archives/2022-may-aug.html#16_July_2022_(The_bullshitter_was_going_to_claim_he_won_with_unfinished_count))
-* [Urgent: Protect warehouse workers](https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Urgent:_Protect_warehouse_workers))
-
+- [Pence and Secret Service](<https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Pence_and_Secret_Service)>)
+- [Democrats urged to finalize reconciliation package](<https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Democrats_urged_to_finalize_reconciliation_package)>)
+- [Congress working behind closed doors on $50 billion in corporate welfare](<https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Congress_working_behind_closed_doors_on_$50_billion_in_corporate_welfare)>)
+- [Bucha torture chambers](<https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Bucha_torture_chambers)>)
+- [Bolsonaro encouraging violence](<https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Bolsonaro_encouraging_violence)>)
+- [Burying without identifying](<https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Burying_without_identifying)>)
+- [Greece threw handcuffed migrants into sea](<https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Greece_threw_handcuffed_migrants_into_sea)>)
+- [NHS doctor strike](<https://stallman.org/archives/2022-may-aug.html#16_July_2022_(NHS_doctor_strike)>)
+- [The bullshitter was going to claim he won with unfinished count](<https://stallman.org/archives/2022-may-aug.html#16_July_2022_(The_bullshitter_was_going_to_claim_he_won_with_unfinished_count)>)
+- [Urgent: Protect warehouse workers](<https://stallman.org/archives/2022-may-aug.html#16_July_2022_(Urgent:_Protect_warehouse_workers)>)

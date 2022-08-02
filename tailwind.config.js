@@ -13,6 +13,8 @@ module.exports = {
         'docs-money': "url('../images/docs/docs-money.png')",
         'docs-price': "url('../images/docs/docs-price.png')",
         'arrows': "url('../images/arrows.png')",
+        'banner-pc': "url('../images/banner.png')",
+        'banner-h5': "url('../images/banner-h5.png')",
        },
       colors: {
         gray77: '#777777',
