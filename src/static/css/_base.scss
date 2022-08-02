@@ -14,8 +14,21 @@
   font-family: 'Ubuntu-R-hinting';
   src: url('../fonts/Ubuntu-R-hinting.ttf');
 }
+@font-face {
+  font-family: 'TVPS-Vain';
+  src: url('../fonts/TVPS-Vain-Capital-2.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../fonts/Poppins-Regular.ttf');
+}
 html {
   scroll-behavior: smooth;
+  font-family: 'Poppins-Regular';
 }
 body {
   font-family: 'Ubuntu';
@@ -44,7 +57,7 @@ h2 {
   @apply mx-auto;
 }
 @media (min-width: 320px) and (max-width: 1190px) {
-  .container {
+  .docs {
     @apply px-4;
   }
 }
