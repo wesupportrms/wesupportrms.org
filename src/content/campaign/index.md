@@ -7,7 +7,4 @@ sidebar: true
 
 ## The Truth
 
-
-
 ## Return to the leadership of FSF
-

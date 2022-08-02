@@ -2,7 +2,7 @@
   @apply overflow-x-hidden bg-black;
   .banner {
     background-position: top center;
-    @apply relative w-screen h-[100vh] md:h-[88vh] bg-banner-h5 md:bg-banner-pc bg-no-repeat bg-cover;
+    @apply relative w-screen h-[100vh] md:h-[88vh] bg-banner-pc bg-no-repeat bg-cover;
     // img {
     //   @apply w-full h-auto;
     //   transform: translate(-50%, -50%);
@@ -59,7 +59,7 @@
   }
 
   h2 {
-    @apply text-[66px] md:text-[5.5rem] relative mb-9 md:mb-16 leading-[72px] md:leading-[107px] mt-0 md:mt-[15rem];
+    @apply text-[66px] md:text-[5.5rem] relative mb-9 md:mb-12 leading-[72px] md:leading-[107px] mt-0 md:mt-[17rem];
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.302);
     font-family: 'TVPS-Vain';
     span {
