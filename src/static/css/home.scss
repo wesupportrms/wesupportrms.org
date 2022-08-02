@@ -1,11 +1,13 @@
 .banner-box {
   @apply overflow-x-hidden bg-black;
   .banner {
-    @apply relative w-screen h-[100vh] md:h-[88vh];
-    img {
-      transform: translate(-50%, -50%);
-      @apply w-full h-full absolute top-1/2 left-1/2 object-cover;
-    }
+    background-position: top center;
+    @apply relative w-screen h-[100vh] md:h-[88vh] bg-banner-h5 md:bg-banner-pc bg-no-repeat bg-cover;
+    // img {
+    //   @apply w-full h-auto;
+    //   transform: translate(-50%, -50%);
+    //   @apply w-full h-full absolute top-1/2 left-1/2 object-cover;
+    // }
   }
 }
 .page-pc {
@@ -34,7 +36,11 @@
     @apply block md:hidden;
   }
   .content {
-    @apply pr-4 md:pr-0 md:px-0 absolute top-[38%] md:top-[62px] md:left-1/2 md:-ml-[542px] text-left md:text-center md:w-[1084px] overflow-hidden;
+    @apply md:pr-0 md:px-0 absolute top-[38%] md:top-0 md:left-1/2 md:-ml-[542px] text-left md:text-center md:w-[1084px] overflow-hidden;
+    p,
+    h2 {
+      @apply px-4 md:px-0;
+    }
   }
   .logo {
     @apply absolute top-0 left-0 hidden md:block cursor-pointer;
@@ -53,17 +59,16 @@
   }
 
   h2 {
-    @apply text-[66px] md:text-[6rem] font-bold relative mb-9 md:mb-16 leading-[72px] md:leading-[107px] mt-0 md:mt-[15rem];
+    @apply text-[66px] md:text-[5.5rem] relative mb-9 md:mb-16 leading-[72px] md:leading-[107px] mt-0 md:mt-[15rem];
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.302);
+    font-family: 'TVPS-Vain';
     span {
       @apply absolute left-0 w-full z-10;
     }
   }
   p {
     @apply leading-[32px] text-base text-left md:text-center mb-2;
-    strong {
-      font-family: 'Ubuntu-Bold';
-    }
+    font-family: 'Poppins-Regular';
     a {
       @apply text-black00 hover:text-black74;
     }
@@ -75,7 +80,7 @@
     @apply mt-10 mb-14 flex flex-wrap justify-between;
     a {
       @apply relative hover:text-gray00 pr-7 text-lg;
-      font-family: 'Ubuntu-Bold';
+      font-family: 'Poppins-Bold';
       i {
         @apply absolute top-[2px] w-6 h-6 bg-arrows bg-no-repeat bg-cover;
       }
@@ -89,7 +94,7 @@
   }
   .home-page {
     .content {
-      @apply w-[760px] left-1/2 top-[5%] -ml-[380px];
+      @apply w-[830px] left-1/2 -top-[3%] -ml-[415px];
     }
     h2 {
       @apply text-[4.4rem] mb-0;
@@ -105,6 +110,13 @@
   .docs-header-pc {
     .header {
       @apply px-4;
+    }
+  }
+}
+@media (min-width: 1086px) and (max-width: 1210px) {
+  .home-page {
+    .content {
+      @apply top-9;
     }
   }
 }
