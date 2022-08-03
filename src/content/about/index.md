@@ -45,5 +45,4 @@ Contribute to build the website;
 
 ## Contact US
 - Telegram: https://t.me/WeSupportRMS
-- Github: https://github.com/wesupportrms/wesupportrms.org
-- Email: contact at wesupportrms period org
+- Email: contact@wesupportrms.org
