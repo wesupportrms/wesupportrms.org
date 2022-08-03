@@ -4,11 +4,11 @@
   }
 }
 .footer-box {
-  @apply bg-gray02 h-[98px] mt-[116px] md:fixed md:bottom-0 md:left-0 w-full;
+  @apply bg-gray02 h-[98px] mt-9 md:mt-[116px] md:fixed md:bottom-0 md:left-0 w-full;
   .footer {
     @apply pt-4 md:pt-8;
     p {
-      @apply text-left px-4 md:text-center text-gray77 text-xs mt-0 mb-0 leading-[18px];
+      @apply text-left px-4 md:text-center text-gray66 text-xs mt-0 mb-0 leading-[18px];
       &:nth-child(2) {
         @apply md:mt-1;
       }

@@ -17,6 +17,7 @@ module.exports = {
         'banner-h5': "url('../images/banner-h5.png')",
        },
       colors: {
+        gray66: '#666666',
         gray77: '#777777',
         grayf1: '#F1F1F1',
         gray02: '#02071D',
