@@ -3,11 +3,6 @@
   .banner {
     background-position: top center;
     @apply relative w-screen h-[100vh] md:h-[88vh] bg-banner-pc bg-no-repeat bg-cover;
-    // img {
-    //   @apply w-full h-auto;
-    //   transform: translate(-50%, -50%);
-    //   @apply w-full h-full absolute top-1/2 left-1/2 object-cover;
-    // }
   }
 }
 .page-pc {
@@ -55,7 +50,7 @@
   }
   p,
   a {
-    @apply md:text-xl;
+    @apply text-base;
   }
 
   h2 {
@@ -68,19 +63,24 @@
   }
   p {
     @apply leading-[32px] text-base text-left md:text-center mb-2;
-    font-family: 'Poppins-Regular';
     a {
       @apply text-black00 hover:text-black74;
+      font-family: 'Roboto-Bold';
+    }
+    i {
+      @apply font-bold;
+      font-family: 'Roboto-Bold';
     }
   }
   .join {
     @apply mb-9 md:mb-2;
   }
+
   .header {
     @apply mt-10 mb-14 flex flex-wrap justify-between;
     a {
       @apply relative hover:text-gray00 pr-7 text-lg;
-      font-family: 'Poppins-Bold';
+      font-family: 'Roboto-Bold';
       i {
         @apply absolute top-[2px] w-6 h-6 bg-arrows bg-no-repeat bg-cover;
       }
@@ -102,10 +102,6 @@
     .tab {
       @apply bottom-[2.9rem];
     }
-    p,
-    a {
-      @apply text-base;
-    }
   }
   .docs-header-pc {
     .header {
@@ -117,6 +113,14 @@
   .home-page {
     .content {
       @apply top-9;
+    }
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 2200px) {
+  .home-page {
+    h2 {
+      @apply mt-80;
     }
   }
 }

@@ -1,5 +1,4 @@
 .docs {
-  @apply pb-[7.5rem];
   .docs-content {
     @apply w-full;
     ul {
@@ -30,22 +29,16 @@
   }
   .title {
     @apply text-[50px] md:text-[4rem] font-bold text-grag2c;
-    font-family: 'TVPS-Vain';
+    font-family: 'Roboto-Bold';
   }
   h1 {
-    @apply pt-[60px] md:pt-[6rem] pb-[20px] md:pb-[63px];
+    @apply pt-[60px] md:pt-[6rem] pb-[20px] md:pb-10;
   }
   h2 {
-    @apply text-[2rem] md:text-[2.6rem] mt-[4.5rem] md:mt-[6.5rem] relative pl-[18px];
-    font-family: 'Ubuntu-Bold';
-    &::after {
-      content: '';
-      @apply absolute top-1/2 -mt-[13.5px] md:-mt-[16.5px] left-0 w-[6px] h-[27px] md:h-[33px] bg-gray11;
-    }
+    @apply text-[2rem] md:text-[2.6rem] mt-[4.5rem] md:mt-[4.5rem] relative;
   }
   h3 {
     @apply text-2xl mt-11 mb-6 relative font-bold;
-    font-family: 'Ubuntu-Bold';
   }
   h4 {
     @apply text-xl mt-10 mb-6;
@@ -65,10 +58,6 @@
   }
   a {
     @apply text-gray20 relative;
-    // &::after {
-    //   content: '';
-    //   @apply absolute top-[1px] right-[-19px] w-4 h-4 bg-contain bg-docs-a bg-no-repeat;
-    // }
   }
   .articles-a {
     @apply mr-1;
