@@ -52,6 +52,9 @@
   }
   p {
     @apply mb-3 pt-[5px] text-base;
+    a {
+      @apply leading-8 pl-1;
+    }
   }
   .title-small {
     @apply text-xl font-bold;
@@ -137,17 +140,17 @@
     }
   }
   ol {
-    counter-reset: li;
+    // counter-reset: li;
     @apply pl-3;
     li {
-      counter-increment: li;
-      display: list-item;
+      // counter-increment: li;
+      // display: list-item;
       @apply pl-2 leading-8;
-      &::marker {
-        display: list-item;
-        content: counter(li) '.';
-        font-weight: bold;
-      }
+      // &::marker {
+      //   display: list-item;
+      //   content: counter(li) '.';
+      //   font-weight: bold;
+      // }
     }
   }
 }

@@ -213,13 +213,13 @@ sidebar: true
 
 <div id='ref-1'></div>
 
-1. [Billionaire Jeffrey Epstein arrested on sex trafficking charges](https://www.vox.com/2019/7/7/20685023/billionaire-jeffrey-epstein-arrested-minor-sex-trafficking-charges). ([Archived](https://web.archive.org/web/20190707192454/https://www.vox.com/2019/7/7/20685023/billionaire-jeffrey-epstein-arrested-minor-sex-trafficking-charges))<div id='ref-2'></div>
-2. [Prosecutors Broke Law in Agreement Not to Prosecute Jeffrey Epstein, Judge Rules](https://www.nytimes.com/2019/02/21/us/jeffrey-epstein-judge-prosecution-agreement.html). ([Archived](https://web.archive.org/web/20210226065223/https://www.nytimes.com/2019/02/21/us/jeffrey-epstein-judge-prosecution-agreement.html))
-3. [Director of M.I.T.’s Media Lab Resigns After Taking Money From Jeffrey Epstein](https://www.nytimes.com/2019/09/07/business/mit-media-lab-jeffrey-epstein-joichi-ito.html). ([Archived](https://web.archive.org/web/20190921013949/https://www.nytimes.com/2019/09/07/business/mit-media-lab-jeffrey-epstein-joichi-ito.html)) <div id='ref-3'></div>
-4. [The St. Thomas Common Sense Symposium: Designing Architectures for Human-Level Intelligence](https://www.cs.bham.ac.uk/research/projects/cogaff/AIMag/StThomas-AIMag.pdf). ([Archived](https://web.archive.org/web/20200710045424/https://www.cs.bham.ac.uk/research/projects/cogaff/AIMag/StThomas-AIMag.pdf))<div id='ref-4'></div>
-5. [Coping with Future Catastrophes](https://www.pr.com/press-release/383199). ([Archived](https://web.archive.org/web/20120115015316/https://www.pr.com/press-release/383199))<div id='ref-5'></div>
-6. [MIT review of Epstein donations](https://www.nature.com/articles/d41586-020-00072-x). ([ Archived](https://web.archive.org/web/20200112070714/https://www.nature.com/articles/d41586-020-00072-x)) <div id='ref-6'></div>
-7. [Minsky Turned Her Down](https://pjmedia.com/instapundit/339725/). ([Archived](https://web.archive.org/web/20190823042441/https://pjmedia.com/instapundit/339725/)) <div id='ref-7'></div>
+1.[Billionaire Jeffrey Epstein arrested on sex trafficking charges](https://www.vox.com/2019/7/7/20685023/billionaire-jeffrey-epstein-arrested-minor-sex-trafficking-charges). ([Archived](https://web.archive.org/web/20190707192454/https://www.vox.com/2019/7/7/20685023/billionaire-jeffrey-epstein-arrested-minor-sex-trafficking-charges))<div id='ref-2'></div>
+2.[Prosecutors Broke Law in Agreement Not to Prosecute Jeffrey Epstein, Judge Rules](https://www.nytimes.com/2019/02/21/us/jeffrey-epstein-judge-prosecution-agreement.html). ([Archived](https://web.archive.org/web/20210226065223/https://www.nytimes.com/2019/02/21/us/jeffrey-epstein-judge-prosecution-agreement.html))
+3.[Director of M.I.T.’s Media Lab Resigns After Taking Money From Jeffrey Epstein](https://www.nytimes.com/2019/09/07/business/mit-media-lab-jeffrey-epstein-joichi-ito.html). ([Archived](https://web.archive.org/web/20190921013949/https://www.nytimes.com/2019/09/07/business/mit-media-lab-jeffrey-epstein-joichi-ito.html)) <div id='ref-3'></div>
+4.[The St. Thomas Common Sense Symposium: Designing Architectures for Human-Level Intelligence](https://www.cs.bham.ac.uk/research/projects/cogaff/AIMag/StThomas-AIMag.pdf). ([Archived](https://web.archive.org/web/20200710045424/https://www.cs.bham.ac.uk/research/projects/cogaff/AIMag/StThomas-AIMag.pdf))<div id='ref-4'></div>
+5.[Coping with Future Catastrophes](https://www.pr.com/press-release/383199). ([Archived](https://web.archive.org/web/20120115015316/https://www.pr.com/press-release/383199))<div id='ref-5'></div>
+6.[MIT review of Epstein donations](https://www.nature.com/articles/d41586-020-00072-x). ([ Archived](https://web.archive.org/web/20200112070714/https://www.nature.com/articles/d41586-020-00072-x)) <div id='ref-6'></div>
+7.[Minsky Turned Her Down](https://pjmedia.com/instapundit/339725/). ([Archived](https://web.archive.org/web/20190823042441/https://pjmedia.com/instapundit/339725/)) <div id='ref-7'></div>
 
 ## Return to the leadership of FSF
 
