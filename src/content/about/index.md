@@ -44,5 +44,5 @@ Contribute to build the website;
 
 
 ## Contact US
-- Telegram: https://t.me/WeSupportRMS
-- Email: contact@wesupportrms.org
+- **Telegram**: https://t.me/WeSupportRMS
+- **Email**: contact@wesupportrms.org

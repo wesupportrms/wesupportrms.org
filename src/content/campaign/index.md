@@ -242,7 +242,6 @@ Signature format as follows:
 ```yaml
 name: Example name (Good company)
 link: https://github.com/example_username
-comment: [Your Comment]
 ```
 
 To sign, please [submit a pull request](https://github.com/wesupportrms/wesupportrms.org/pulls). 
