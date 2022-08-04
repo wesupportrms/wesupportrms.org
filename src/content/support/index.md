@@ -7,15 +7,15 @@ sidebar: true
 
 ## How to Support
 
-## Free Software
+* Free Software
 
-- Promote the free software movement
+  Promote the free software movement.
 
-## Invite RMS to give the speech
+  
 
-## Spread this website
+* Invite RMS to give the speech
 
-- The social media
-- Email
+  
 
-## We Support
+* Spread this website by social media or Email
+
