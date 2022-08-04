@@ -1,21 +1,15 @@
 ---
-title: support
-description: support
+title: Support
+description: Support
 lang: en
 sidebar: true
 ---
 
-## How to Support
+## How to support
 
-* Free Software
-
+- Free Software<br/>
   Promote the free software movement.
 
-  
+- Invite RMS to give the speech
 
-* Invite RMS to give the speech
-
-  
-
-* Spread this website by social media or Email
-
+- Spread this website by social media or Email
