@@ -1,5 +1,5 @@
 # wesupportrms.org
-To sign, click [here](https://github.com/wesupportrms/wesupportrms.org/new/master/_data/signed) and name the file <username>.yaml (replace <username> with your name) with the following content:
+To sign, click [here](https://github.com/wesupportrms/wesupportrms.org/tree/devnet/_data/signed) and name the file <username>.yaml (replace <username> with your name) with the following content:
 
 name: <your name here (optional organization or company)>
 link: <link to your profile or site>
