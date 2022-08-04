@@ -2,7 +2,7 @@
   .docs-content {
     @apply w-full;
     ul {
-      @apply mt-7;
+      @apply mt-3 md:mt-7;
       li {
         @apply relative pl-3 leading-8;
         &::before {
@@ -28,14 +28,14 @@
     @apply pt-10;
   }
   .title {
-    @apply text-[50px] md:text-[54px] font-bold text-grag2c;
+    @apply text-[48px] md:text-[54px] font-bold text-grag2c leading-[60px] md:leading-[80px];
     font-family: 'Roboto-Bold';
   }
   h1 {
-    @apply pt-[60px] md:pt-[6rem] mb-[20px] md:mb-[3.5rem];
+    @apply pt-[60px] md:pt-[6rem] mb-12 md:mb-[3.5rem];
   }
   h2 {
-    @apply text-[2rem] mt-[4.5rem] md:mt-[3rem] md:mb-5 relative;
+    @apply text-[1.9rem] mt-[3.5rem] mb-5 md:mt-[3rem] md:mb-5 relative;
   }
   h3 {
     @apply text-2xl mt-11 mb-6 relative font-bold;
@@ -52,12 +52,15 @@
   }
   p {
     @apply mb-3 pt-[5px] text-base;
+    a {
+      @apply leading-8 pl-1;
+    }
   }
   .title-small {
     @apply text-xl font-bold;
   }
   a {
-    @apply text-gray20 relative;
+    @apply text-gray20 relative break-words;
   }
   .articles-a {
     @apply mr-1;
@@ -127,6 +130,9 @@
   pre {
     @apply bg-grayf5 py-4 px-3 mb-6 mt-4;
   }
+  code {
+    @apply text-xs md:text-base;
+  }
   blockquote {
     @apply border-l-4 border-solid border-graycf pl-4 my-8;
     p {
@@ -134,17 +140,17 @@
     }
   }
   ol {
-    counter-reset: li;
+    // counter-reset: li;
     @apply pl-3;
     li {
-      counter-increment: li;
-      display: list-item;
+      // counter-increment: li;
+      // display: list-item;
       @apply pl-2 leading-8;
-      &::marker {
-        display: list-item;
-        content: counter(li) '.';
-        font-weight: bold;
-      }
+      // &::marker {
+      //   display: list-item;
+      //   content: counter(li) '.';
+      //   font-weight: bold;
+      // }
     }
   }
 }
