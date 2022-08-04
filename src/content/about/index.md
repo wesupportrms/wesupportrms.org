@@ -5,7 +5,7 @@ lang: en
 sidebar: true
 ---
 
-## Who We Are
+## Who we are
 
 Friends of RMS, Free software supporters, developers.
 
@@ -27,21 +27,18 @@ It is built by the following free software.
 
 Currently this website is running on AWS that is a workaround. We will migrate to P2P network for better privacy and freedom.
 
-## Join US
+## Join us
 
 Contribute to build the website;
 
 - https://github.com/wesupportrms
 
-## Contact US
+## Contact us
 
 - **Telegram**
 
   https://t.me/WeSupportRMS
 
-  
-
 - **Email**
 
   contact@wesupportrms.org ([Public Key](https://github.com/wesupportrms/wesupportrms.org/blob/main/keys/public-key%40contact-at-wesupportrms-org.asc))
-

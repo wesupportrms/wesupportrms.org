@@ -1,5 +1,5 @@
 ---
-title: Join the Community
+title: Community
 description: Join the Community
 lang: en
 sidebar: true
@@ -7,11 +7,9 @@ sidebar: true
 
 A world wide community to support RMS for long term.
 
-## Online Communities
+## Online communities
 
-**Telegram**: https://t.me/WeSupportRMS 
-
-
+**Telegram**: https://t.me/WeSupportRMS
 
 ## Other support campaign
 

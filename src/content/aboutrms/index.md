@@ -7,7 +7,7 @@ sidebar: true
 
 All about Richard M. Stallman, we’ll collect the RMS related reports, including articles, videos etc.
 
-## A Serious Bio
+## A serious bio
 
 ![RMS photo](../../static/images/Richard_Stallman_at_LibrePlanet_2019.jpg)
 
