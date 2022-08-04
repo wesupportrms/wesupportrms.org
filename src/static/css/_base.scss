@@ -53,7 +53,7 @@ h2 {
 }
 
 .container {
-  @apply mx-auto max-w-[1200px] min-h-[800px];
+  @apply mx-auto max-w-[1200px] md:min-h-[800px];
 }
 @media (min-width: 320px) and (max-width: 1190px) {
   .docs {

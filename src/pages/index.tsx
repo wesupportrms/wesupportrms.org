@@ -66,7 +66,7 @@ function Main() {
             </p>
 
             <p>
-              We launched a <i>WeSuuportRMS</i> campaign.
+              We launched a <Link to="/campaign/">WeSuuportRMS campaign</Link>.
             </p>
 
             <p className={'join'}>

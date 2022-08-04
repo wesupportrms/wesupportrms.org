@@ -43,7 +43,7 @@ sidebar: true
 
     Benford is probably referring to the conference held in the US Virgin Islands in April 2002, when Virginia was 18.
 
-  - Minsky's widow, Gloria Rudisch, has said: We were always together. We didn’t stay at his house or anything.
+  - Minsky's widow, Gloria Rudisch, has said: We were always together. We didn’t stay at his house or anything.  [[7<sup></sup>]](#ref-7)
 
 - On **September 10, 2019**, an email announcing the protest that was organized at MIT against the institution's involvement with Epstein was sent to the CSAIL(Computer Science and Artificial Intelligence Lab) mailing list.
 
@@ -217,9 +217,9 @@ sidebar: true
 2. [Prosecutors Broke Law in Agreement Not to Prosecute Jeffrey Epstein, Judge Rules](https://www.nytimes.com/2019/02/21/us/jeffrey-epstein-judge-prosecution-agreement.html). ([Archived](https://web.archive.org/web/20210226065223/https://www.nytimes.com/2019/02/21/us/jeffrey-epstein-judge-prosecution-agreement.html))
 3. [Director of M.I.T.’s Media Lab Resigns After Taking Money From Jeffrey Epstein](https://www.nytimes.com/2019/09/07/business/mit-media-lab-jeffrey-epstein-joichi-ito.html). ([Archived](https://web.archive.org/web/20190921013949/https://www.nytimes.com/2019/09/07/business/mit-media-lab-jeffrey-epstein-joichi-ito.html)) <div id='ref-3'></div>
 4. [The St. Thomas Common Sense Symposium: Designing Architectures for Human-Level Intelligence](https://www.cs.bham.ac.uk/research/projects/cogaff/AIMag/StThomas-AIMag.pdf). ([Archived](https://web.archive.org/web/20200710045424/https://www.cs.bham.ac.uk/research/projects/cogaff/AIMag/StThomas-AIMag.pdf))<div id='ref-4'></div>
-   [Coping with Future Catastrophes](https://www.pr.com/press-release/383199). ([Archived](https://web.archive.org/web/20120115015316/https://www.pr.com/press-release/383199))
-5. [MIT review of Epstein donations](https://www.nature.com/articles/d41586-020-00072-x). ([ Archived](https://web.archive.org/web/20200112070714/https://www.nature.com/articles/d41586-020-00072-x)) <div id='ref-5'></div>
-6. [Minsky Turned Her Down](https://pjmedia.com/instapundit/339725/). ([Archived](https://web.archive.org/web/20190823042441/https://pjmedia.com/instapundit/339725/)) <div id='ref-6'></div>
+5. [Coping with Future Catastrophes](https://www.pr.com/press-release/383199). ([Archived](https://web.archive.org/web/20120115015316/https://www.pr.com/press-release/383199))<div id='ref-5'></div>
+6. [MIT review of Epstein donations](https://www.nature.com/articles/d41586-020-00072-x). ([ Archived](https://web.archive.org/web/20200112070714/https://www.nature.com/articles/d41586-020-00072-x)) <div id='ref-6'></div>
+7. [Minsky Turned Her Down](https://pjmedia.com/instapundit/339725/). ([Archived](https://web.archive.org/web/20190823042441/https://pjmedia.com/instapundit/339725/)) <div id='ref-7'></div>
 
 ## Return to the leadership of FSF
 
