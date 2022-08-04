@@ -19,4 +19,4 @@ If you can, please consider sharing this letter on your forums and social media 
 
 Alternatively, fork and clone the repo, create the file _data/signed/<username>.yaml manually, then commit and submit a PR.
 
-If you want to support the letter without using Github, send a signed patch to [contact@wesupportrms.org](mailto:contact@wesupportrms.org).
+If you want to support the letter without using Github, send a signed patch to [contact@wesupportrms.org](mailto:contact@wesupportrms.org) ([Public Key](https://github.com/wesupportrms/wesupportrms.org/blob/main/keys/public-key%40contact-at-wesupportrms-org.asc)).
