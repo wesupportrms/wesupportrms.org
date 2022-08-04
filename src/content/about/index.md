@@ -15,7 +15,7 @@ Restore the truth and the reputation of RMS. We look forward to recognize the co
 
 ## About the website
 
-The source code of this website is under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) .
+The source code of this website is under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
 
 It is built by the following free software.
 

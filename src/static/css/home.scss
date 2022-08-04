@@ -31,7 +31,7 @@
     @apply block md:hidden;
   }
   .content {
-    @apply md:pr-0 md:px-0 absolute top-[38%] md:top-0 md:left-1/2 md:-ml-[542px] text-left md:text-center md:w-[1084px] overflow-hidden;
+    @apply md:pr-0 md:px-0 absolute top-[42%] md:top-0 md:left-1/2 md:-ml-[542px] text-left md:text-center md:w-[1084px] overflow-hidden;
     p,
     h2 {
       @apply px-4 md:px-0;
@@ -62,7 +62,7 @@
     }
   }
   p {
-    @apply leading-[32px] text-base text-left md:text-center mb-2;
+    @apply leading-[32px] text-base text-left md:text-center mb-4 md:mb-2;
     a {
       @apply text-black00 hover:text-black74;
       font-family: 'Roboto-Bold';
@@ -120,7 +120,7 @@
 @media (min-width: 1700px) and (max-width: 2200px) {
   .home-page {
     h2 {
-      @apply mt-80;
+      @apply mt-[22rem];
     }
   }
 }
