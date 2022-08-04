@@ -13,6 +13,7 @@ def report(arg):
     print(arg)
 
 def generate(signatures):
+    signatures = sorted(signatures, key=lambda item: item[0])
     content = '**Signed by %s individuals:**\n\n' % len(signatures)
     for name, link in signatures:
         content += '1. [%s](%s)\n' % (name, link)
