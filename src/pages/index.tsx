@@ -1,11 +1,8 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'gatsby'
 import HeaderModal from '../components/headerModal'
 import NormalLayout from '../components/NormalLayout'
 import Footer from '../components/footer'
-import BannerImg from '../static/images/banner.png'
-import BannerImgH5 from '../static/images/banner-h5.png'
-import { StaticImage } from 'gatsby-plugin-image'
 
 class PageModelTitle {
   name: string
@@ -32,20 +29,9 @@ function Main() {
     <div className={'home-page'}>
       <HeaderModal />
       <div className={'banner-box'}>
-        <div className={'banner'}>
-          <img className={'page-pc'} src={BannerImg} alt="banner-img" />
-          <img className={'page-h5'} src={BannerImgH5} alt="banner-h5-img" />
-        </div>
-        <div className={'container'}>
-          <div className={'content'}>
-            {/* <Link to="/">
-              <StaticImage
-                className={'logo'}
-                placeholder="blurred"
-                alt="logo"
-                src="../static/images/logo-pc1.png"
-              />
-            </Link> */}
+        <div className={'banner'}></div>
+        <div className={'content-h5'}>
+          <div className={'content container'}>
             <h2 className={'page-pc'}>WE SUPPORT RMS</h2>
             <h2 className={'page-h5'}>
               WE
@@ -80,7 +66,7 @@ function Main() {
             </p>
 
             <p>
-              We launched a <strong>WeSuuportRMS</strong> campaign.
+              We launched a <i>WeSuuportRMS</i> campaign.
             </p>
 
             <p className={'join'}>
@@ -94,14 +80,13 @@ function Main() {
               </a>
               &nbsp;!
             </p>
-
             <div className={'page-h5'}>
               <Footer />
             </div>
+            <div className={'page-pc footer-modal-box'}>
+              <Footer />
+            </div>
           </div>
-        </div>
-        <div className={'page-pc'}>
-          <Footer />
         </div>
       </div>
     </div>

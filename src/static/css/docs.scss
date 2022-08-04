@@ -1,8 +1,8 @@
 .docs {
-  @apply pb-[7.5rem];
   .docs-content {
     @apply w-full;
-    ul {
+    ul,
+    ol {
       @apply mt-11;
       li {
         @apply relative pl-3 leading-8;
@@ -14,27 +14,32 @@
       }
     }
   }
+  .sign {
+    @apply mt-11;
+    a {
+      @apply block leading-8 pl-3 relative;
+      &::before {
+        @apply absolute top-[15px] left-0 w-1 h-1 bg-grag2c;
+        content: '';
+        border-radius: 50%;
+      }
+    }
+  }
   .footer {
     @apply pt-10;
   }
   .title {
-    @apply text-[50px] md:text-[4.2rem] font-bold text-grag2c;
-    font-family: 'Ubuntu-Bold';
+    @apply text-[50px] md:text-[4rem] font-bold text-grag2c;
+    font-family: 'Roboto-Bold';
   }
   h1 {
-    @apply pt-[60px] md:pt-[6rem] pb-[20px];
+    @apply pt-[60px] md:pt-[6rem] pb-[20px] md:pb-10;
   }
   h2 {
-    @apply text-4xl md:text-[2.6rem] mt-[4.5rem] md:mt-[6.5rem] relative pl-[18px];
-    font-family: 'Ubuntu-Bold';
-    &::after {
-      content: '';
-      @apply absolute top-1/2 -mt-[16.5px] left-0 w-[6px] h-[33px] bg-gray11;
-    }
+    @apply text-[2rem] md:text-[2.6rem] mt-[4.5rem] md:mt-[4.5rem] relative;
   }
   h3 {
     @apply text-2xl mt-11 mb-6 relative font-bold;
-    font-family: 'Ubuntu-Bold';
   }
   h4 {
     @apply text-xl mt-10 mb-6;
@@ -47,17 +52,13 @@
     }
   }
   p {
-    @apply my-8 text-base;
+    @apply mb-8 pt-[5px] text-base;
   }
   .title-small {
     @apply text-xl font-bold;
   }
   a {
     @apply text-gray20 relative;
-    // &::after {
-    //   content: '';
-    //   @apply absolute top-[1px] right-[-19px] w-4 h-4 bg-contain bg-docs-a bg-no-repeat;
-    // }
   }
   .articles-a {
     @apply mr-1;
@@ -122,6 +123,15 @@
       &::after {
         @apply bg-docs-price;
       }
+    }
+  }
+  pre {
+    @apply bg-grayf5 py-4 px-3;
+  }
+  blockquote {
+    @apply border-l-4 border-solid border-graycf pl-4 mb-8;
+    p {
+      @apply my-3 leading-8;
     }
   }
 }
