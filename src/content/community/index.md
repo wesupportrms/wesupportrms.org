@@ -7,14 +7,11 @@ sidebar: true
 
 A world wide community to support RMS for long term.
 
-## Please sign
+## Online Communities
 
-<div class='sign'>
-  <a href='' target="_blank">xujizhe</a>
-  <a href='' target="_blank">ET</a>
-  <a href='' target="_blank">haibo</a>
-  <a href='' target="_blank">liukeke</a>
-</div>
+**Telegram**: https://t.me/WeSupportRMS 
+
+
 
 ## Other support campaign
 
