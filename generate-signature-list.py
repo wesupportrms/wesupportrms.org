@@ -15,8 +15,10 @@ def report(arg):
 def generate(signatures):
     signatures = sorted(signatures, key=lambda item: item[0])
     content = '**Signed by %s individuals:**\n\n' % len(signatures)
+    cnt = 1
     for name, link in signatures:
-        content += '1. [%s](%s)\n' % (name, link)
+        content += '%s. [%s](%s)\n' % (cnt, name, link)
+        cnt += 1
     filename = "src/content/campaign/index.md"
     contents = ''
     with open(filename) as f:
