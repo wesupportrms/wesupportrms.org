@@ -17,7 +17,7 @@ def generate(signatures):
     content = '**Signed by %s individuals:**\n\n' % len(signatures)
     cnt = 1
     for name, link in signatures:
-        content += '%s. [%s](%s)\n' % (cnt, name, link)
+        content += '%s.[%s](%s)\n' % (cnt, name, link)
         cnt += 1
     filename = "src/content/campaign/index.md"
     contents = ''
