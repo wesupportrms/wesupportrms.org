@@ -14,20 +14,25 @@ export default function MyModal() {
           <AiOutlineMenu />
         </div>
         <div className={'page-h5'}>
-          <StaticImage
+          
+           <Link to="/">
+           <StaticImage
             className={'logo-img'}
             placeholder="blurred"
             alt="docs-button"
             src="../static/images/logo-h5.png"
           />
+          </Link>
         </div>
         <div className={'page-pc'}>
+        <Link to="/">
           <StaticImage
             className={'logo-img'}
             placeholder="blurred"
             alt="docs-button"
             src="../static/images/logo-modal.png"
           />
+          </Link>
         </div>
       </div>
       <Transition.Root show={mobileSidebarOpen} as={Fragment}>
@@ -88,12 +93,14 @@ export default function MyModal() {
                       alt="docs-button"
                       src="../static/images/close.png"
                     />
+                     <Link to="/">
                     <StaticImage
                       className={'logo-modal'}
                       placeholder="blurred"
                       alt="logo-modal"
                       src="../static/images/logo-modal.png"
                     />
+                    </Link>
                   </div>
                   <div className={'page-h5'}>
                     <div className={'header'}>
